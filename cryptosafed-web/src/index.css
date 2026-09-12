@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #142A20;
+  --color-paper: #F1F3EF;
+  --color-flag: #01411C;
+  --color-line: #D9DCD3;
+  --color-risk-low: #2F6E4E;
+  --color-risk-medium: #8A6100;
+  --color-risk-high: #A6491A;
+  --color-risk-critical: #A3382C;
+
+  --font-display: "Lora", ui-serif, Georgia, serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
