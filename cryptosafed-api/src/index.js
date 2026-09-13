@@ -6,7 +6,11 @@ import { initComplianceKB } from "./services/complianceKB.js";
 
 const app = express();
 
-const allowedOrigins = ["http://localhost:3000", "http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://localhost:5173",
+  "https://crypto-safed.vercel.app",
+];
 
 app.use(cors({ origin: allowedOrigins }));
 app.use(express.json());
