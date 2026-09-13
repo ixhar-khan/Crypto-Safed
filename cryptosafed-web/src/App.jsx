@@ -113,7 +113,7 @@ export default function App() {
           </div>
         </header>
 
-        <section className="mt-6 rounded-2xl bg-gradient-to-br from-white to-brand/5 border border-line p-6 sm:p-8">
+        <section className="mt-6 rounded-2xl bg-linear-to-br from-white to-brand/5 border border-line p-6 sm:p-8">
           <span className="text-xs font-semibold uppercase tracking-wide text-brand">
             AI-Powered Crypto Due Diligence
           </span>
@@ -232,7 +232,7 @@ export default function App() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-brand to-brand-dark px-6 py-2.5 text-sm font-semibold text-white hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-bg disabled:opacity-60 disabled:cursor-not-allowed transition"
+                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r bg-[#199F7D] from-brand to-brand-dark px-6 py-2.5 text-sm font-semibold text-white hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-bg disabled:opacity-60 disabled:cursor-not-allowed transition"
                   >
                     {loading ? "Analyzing…" : "Analyze"}
                   </button>
